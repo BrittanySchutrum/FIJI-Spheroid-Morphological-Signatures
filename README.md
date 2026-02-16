@@ -2,9 +2,11 @@
 FIJI macros as featured in the manuscript **Shape Factor Analysis as a Quantitative Framework for Assessing Spheroid and Organoid Morphology and Invasiveness**
 
 ## Overview 
-This repository contains 
-* [calculating convexty] (#convexity-background-and-usage)
-* 
+This repository contains several macros used in shape factor analysis of spheroids. 
+* [The convexity macro](#convexity-background-and-usage) stands alone in calculating the shape factor convexity for ROI(s) in FIJI. 
+
+* [The perimeter points calculator and the interpolation macro](#perimieter-points-and-interpolation) are useful for preparing ROIs for the MATLAB radial length analysis also featured our manuscript. These macros are not required for editing the ROIs for radial length analysis but are useful for the applications we describe.
+   
 ## Description and Installation 
 The macros here were developed and tested in the [FJIJ](https://fiji.sc/) version of ImageJ (FIJI 2.16.0/1.54p). FIJI is built on ImageJ2 and comes with plugins. FIJI can be downloaded from [https://fiji.sc/](https://fiji.sc/) . Please see [https://github.com/fiji](https://github.com/fiji) for additional information 
  
@@ -28,7 +30,7 @@ Convexity is a dimensionless shape factor that is defined by the convex perimete
 
 ![Convexity Demo](ConvexityDemoImage.png)
 
-## Perimeter Pointa and Interpolation 
+## Perimeter Points and Interpolation 
 ### Background and useage 
 Radial length analysis (RLA) of spheroids in MATLAB as described in the repository AverageRadialLength-Spheroids is dependent on the coordinates of points which define the perimeter of an ROI created in FIJI. By default, the shape is defined by the minimum number of points to define the shape in FIJI, however for RLA applications it is desirable to interpolate the perimeter points to maximize the number of defined points. 
 
