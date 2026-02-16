@@ -48,6 +48,10 @@ Radial length analysis (RLA) of spheroids in MATLAB as described in the reposito
 
 **Output:** updated ROI manager with each ROI interpolated to a 1-pixel interval.
 
+## Authors
+Primary code development: Brittany Schutrum, Jenny Deng, Amalie Gao, Emily Hur, Ju Hee Kim
+
+
 ## Author Contact Information 
 ### Brittany Schutrum 
 **ORCID**: [0000-0002-4462-7812](https://orcid.org/0000-0002-4462-7812)<br>
