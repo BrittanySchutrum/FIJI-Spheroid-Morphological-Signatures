@@ -1,15 +1,20 @@
 # FIJI-Spheroid-Morphological-Signatures
 FIJI macros as featured in the manuscript **Shape Factor Analysis as a Quantitative Framework for Assessing Spheroid and Organoid Morphology and Invasiveness**
 
-
-## Description 
-FIJI (Image J) Macros in this repository 
+## Overview 
+This repository contains 
+* [calculating convexty] (#convexity-background-and-usage)
+* 
+## Description and Installation 
+The macros here were developed and tested in the [FJIJ](https://fiji.sc/) version of ImageJ (FIJI 2.16.0/1.54p). FIJI is built on ImageJ2 and comes with plugins. FIJI can be downloaded from [https://fiji.sc/](https://fiji.sc/) . Please see [https://github.com/fiji](https://github.com/fiji) for additional information 
+ 
+### FIJI (Image J) Macros in this repository 
 1) **ConvexityMacro.ijm** = calculates the convexity (the convex perimeter divided by the perimeter) for each ROI open in the ROI manager 
 2) **perimeter_points.ijm** = counts the number of perimeter points defining an ROI. Useful in preparing ROIs for radial length analysis in MATLAB
 3) **interpolation.ijm** = creates additional perimeter points to define an ROI by interpolating to a 1 pixel interval. Useful for preparing ROIs for radial length analysis in MATLAB
 
-## Installation 
-.ijm files can be downloaded and opened directly in FIJI/ImageJ
+.ijm files can be downloaded and opened directly in FIJI
+
 
 ## Convexity Background and Usage 
 Convexity is a dimensionless shape factor that is defined by the convex perimeter divided by the original shape perimeter. Convex hull is a function in FIJI that makes a selected region convex.
