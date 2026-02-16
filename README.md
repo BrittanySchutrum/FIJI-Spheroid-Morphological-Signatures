@@ -1,8 +1,9 @@
 # FIJI-Spheroid-Morphological-Signatures
-FIJI macros as featured in the manuscript Shape Factor Screening to Quantify Morphological Signatures of Spheroid/Organoid Malignancy and Invasiveness
+FIJI macros as featured in the manuscript **Shape Factor Analysis as a Quantitative Framework for Assessing Spheroid and Organoid Morphology and Invasiveness**
+
 
 ## Description 
-Image J Macros in this repository 
+FIJI (Image J) Macros in this repository 
 1) **ConvexityMacro.ijm** = calculates the convexity (the convex perimeter divided by the perimeter) for each ROI open in the ROI manager 
 2) **perimeter_points.ijm** = counts the number of perimeter points defining an ROI. Useful in preparing ROIs for radial length analysis in MATLAB
 3) **interpolation.ijm** = creates additional perimeter points to define an ROI by interpolating to a 1 pixel interval. Useful for preparing ROIs for radial length analysis in MATLAB
