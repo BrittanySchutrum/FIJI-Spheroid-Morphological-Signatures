@@ -1,6 +1,7 @@
 # FIJI-Spheroid-Morphological-Signatures
 FIJI macros as featured in the manuscript **Shape Factor Analysis as a Quantitative Framework for Assessing Spheroid and Organoid Morphology and Invasiveness**
 
+Code DOI: 10.5281/zenodo.18881209 
 ## Overview 
 This repository contains several macros used in shape factor analysis of spheroids. 
 * [The convexity macro](#convexity-background-and-usage) stands alone in calculating the shape factor convexity for ROI(s) in FIJI. 
