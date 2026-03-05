@@ -11,7 +11,7 @@ This repository contains several macros used in shape factor analysis of spheroi
 ## Description and Installation 
 The macros here were developed and tested in the [FJIJ](https://fiji.sc/) version of ImageJ (FIJI 2.16.0/1.54p). FIJI is built on ImageJ2 and comes with plugins. FIJI can be downloaded from [https://fiji.sc/](https://fiji.sc/) . Please see [https://github.com/fiji](https://github.com/fiji) for additional information 
  
-### FIJI (Image J) Macros in this repository 
+### FIJI (ImageJ) Macros in this repository 
 1) [ConvexityMacro.ijm](https://github.com/BrittanySchutrum/FIJI-Spheroid-Morphological-Signatures/blob/main/ConvexityMacro.ijm) = calculates the convexity (the convex perimeter divided by the perimeter) for each ROI open in the ROI manager 
 2) [perimeter_points.ijm](https://github.com/BrittanySchutrum/FIJI-Spheroid-Morphological-Signatures/blob/main/perimeter_points.ijm) = counts the number of perimeter points defining an ROI. Useful in preparing ROIs for radial length analysis in MATLAB
 3) [interpolation.ijm](https://github.com/BrittanySchutrum/FIJI-Spheroid-Morphological-Signatures/blob/main/Interpolation.ijm) = creates additional perimeter points to define an ROI by interpolating to a 1 pixel interval. Useful for preparing ROIs for radial length analysis in MATLAB
@@ -33,7 +33,7 @@ Convexity is a dimensionless shape factor that is defined by the convex perimete
 
 ## Perimeter Points and Interpolation 
 ### Background and useage 
-Radial length analysis (RLA) of spheroids in MATLAB as described in the repository [AverageRadialLengthCrossings-Spheroids](https://github.com/BrittanySchutrum/AverageRadialLegnthCrossings-Spheroids) is dependent on the coordinates of points which define the perimeter of an ROI created in FIJI. By default, the shape is defined by the minimum number of points to define the shape in FIJI, however for RLA applications it is desirable to interpolate the perimeter points to maximize the number of defined points. 
+Average Radial Length Crossing (ARLC) analysis of spheroids in MATLAB as described in the repository [AverageRadialLengthCrossings-Spheroids](https://github.com/BrittanySchutrum/AverageRadialLegnthCrossings-Spheroids) is dependent on the coordinates of points which define the perimeter of an ROI created in FIJI. By default, the shape is defined by the minimum number of points to define the shape in FIJI, however for ARLC applications it is desirable to interpolate the perimeter points to maximize the number of defined points. 
 
 ### Perimeter_points.ijm
 **Inputs:**
